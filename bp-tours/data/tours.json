@@ -1,0 +1,54 @@
+
+[
+    {
+      "id": 1,
+      "name": "Blackpool Eco Beach Tour",
+      "location": "Blackpool Beach",
+      "price": 25,
+      "duration": "2 hours",
+      "description": "Explore Blackpool's coastline while learning about marine conservation efforts.",
+
+    },
+    {
+      "id": 2,
+      "name": "City History Walk",
+      "location": "Blackpool City Centre",
+      "price": 15,
+      "duration": "1.5 hours",
+      "description": "Discover the history and hidden stories of Blackpool's iconic landmarks.",
+
+    },
+    {
+      "id": 3,
+      "name": "Nature Reserve Adventure",
+      "location": "Stanley Park",
+      "price": 30,
+      "duration": "3 hours",
+      "description": "Guided exploration of Stanley Park's nature reserve and birdwatching trails.",
+    },
+    {
+      "id": 4,
+      "name": "Sea Life Centre Tour",
+      "location": "Sea Life Blackpool",
+      "price": 20,
+      "duration": "2 hours",
+      "description": "Up-close experience with marine life and insight into conservation programs.",
+    },
+    {
+      "id": 5,
+      "name": "Tower Experience",
+      "location": "Blackpool Tower",
+      "price": 20,
+      "duration": "1 hour",
+      "description": "Panoramic views of Blackpool from the iconic Blackpool Tower.",
+    },
+    {
+      "id": 6,
+      "name": "Sunset Beach Walk",
+      "location": "North Pier Beach",
+      "price": 18,
+      "duration": "1.5 hours",
+      "description": "Relaxing sunset tour along North Pier Beach with local wildlife insights.",
+    }
+  ]
+  
