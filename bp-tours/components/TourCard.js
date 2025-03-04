@@ -1,5 +1,8 @@
 import React from 'react';
 import { Card, Title, Paragraph, Button } from 'react-native-paper';
+import { StyleSheet, View, Dimensions } from 'react-native';
+
+const { width, height } = Dimensions.get('window'); // Get device width and height dynamically
 
 const images = {
   1: require('../assets/images/1.jpeg'),
@@ -10,17 +13,45 @@ const images = {
   6: require('../assets/images/6.jpeg'),
 };
 
-
 export default function TourCard({ tour, onPress }) {
   return (
-    <Card style={{ marginBottom: 20 }}>
-      <Card.Cover source={images[tour.id]} />
-      <Card.Content>
-        <Title>{tour.name}</Title>
-        <Paragraph>{`£${tour.price} | ${tour.duration}`}</Paragraph>
-        <Button mode="contained" onPress={onPress}>View Tour</Button>
-      </Card.Content>
-    </Card>
-
+    <View style={styles.cardContainer}>
+      <Card style={styles.card}>
+        <Card.Cover source={images[tour.id]} style={styles.image} />
+        <Card.Content>
+          <Title style={styles.title}>{tour.name}</Title>
+          <Paragraph>{`£${tour.price} | ${tour.duration}`}</Paragraph>
+          <Button mode="contained" onPress={onPress}>View Tour</Button>
+        </Card.Content>
+      </Card>
+    </View>
   );
 }
+
+const styles = StyleSheet.create({
+  cardContainer: {
+    alignItems: 'center',
+    marginVertical: 10,
+    width: width * 0.9, // Cards take up 90% of the screen width
+  },
+  card: {
+    width: '100%',
+    height: height * 0.5, // Cards take up 60% of the screen height
+    justifyContent: 'space-between',
+    borderRadius: 15,
+    overflow: 'hidden',
+  },
+  image: {
+    height: '60%', // Image fills 60% of the card height
+    resizeMode: 'cover',
+  },
+  title: {
+    textAlign: 'center',
+    fontSize: 20,
+    fontWeight: 'bold',
+    marginBottom: 10,
+  },
+});
+
+
+
