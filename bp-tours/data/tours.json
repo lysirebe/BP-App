@@ -6,6 +6,8 @@
       "location": "Blackpool Beach",
       "price": 25,
       "duration": "2 hours",
+      "startTimes": ["10:00 AM", "2:00 PM"],
+      "groupSize": 10,
       "description": "Explore Blackpool's coastline while learning about marine conservation efforts.",
 
     },
@@ -15,6 +17,8 @@
       "location": "Blackpool City Centre",
       "price": 15,
       "duration": "1.5 hours",
+      "startTimes": ["11:00 AM", "3:00 PM"],
+      "groupSize": 15,
       "description": "Discover the history and hidden stories of Blackpool's iconic landmarks.",
 
     },
@@ -24,6 +28,8 @@
       "location": "Stanley Park",
       "price": 30,
       "duration": "3 hours",
+      "startTimes": ["11:00 AM", "3:00 PM"],
+      "groupSize": 15,
       "description": "Guided exploration of Stanley Park's nature reserve and birdwatching trails.",
     },
     {
@@ -32,6 +38,8 @@
       "location": "Sea Life Blackpool",
       "price": 20,
       "duration": "2 hours",
+      "startTimes": ["11:00 AM", "3:00 PM"],
+      "groupSize": 15,
       "description": "Up-close experience with marine life and insight into conservation programs.",
     },
     {
@@ -40,6 +48,8 @@
       "location": "Blackpool Tower",
       "price": 20,
       "duration": "1 hour",
+      "startTimes": ["11:00 AM", "3:00 PM"],
+      "groupSize": 15,
       "description": "Panoramic views of Blackpool from the iconic Blackpool Tower.",
     },
     {
@@ -48,7 +58,8 @@
       "location": "North Pier Beach",
       "price": 18,
       "duration": "1.5 hours",
+      "startTimes": ["11:00 AM", "3:00 PM"],
+      "groupSize": 15,
       "description": "Relaxing sunset tour along North Pier Beach with local wildlife insights.",
     }
   ]
-  
