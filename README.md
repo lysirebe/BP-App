@@ -20,12 +20,6 @@ BP Tours is a Blackpool-based sustainable tourism mobile application built with 
 ![image](https://github.com/user-attachments/assets/5b7993cb-7898-412a-8bb8-6321a6aeb4d7)
 
 
-<div style="display: flex; justify-content: space-between;">
-  <img src="https://via.placeholder.com/200" alt="Home Screen" width="200"/>
-  <img src="https://via.placeholder.com/200" alt="Tour Details" width="200"/>
-  <img src="https://via.placeholder.com/200" alt="Booking Page" width="200"/>
-</div>
-
 ## Technologies Used
 
 - **React Native**: Cross-platform mobile development
