@@ -47,12 +47,12 @@ BP Tours is a Blackpool-based sustainable tourism mobile application built with 
    Set up API key: Update the app.json file with your OpenWeatherMap API key:
    ```
    {
-  "expo": {
-    "name": "BP Tours",
-    "slug": "bp-tours",
-    // other expo configs...
-    "extra": {
-      "apiKey": "your_openweathermap_api_key_here"
+     "expo": {
+       "name": "BP Tours",
+       "slug": "bp-tours",
+       // other expo configs...
+       "extra": {
+         "apiKey": "your_openweathermap_api_key_here"
     }
   }
 }
