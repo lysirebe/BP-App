@@ -44,9 +44,18 @@ BP Tours is a Blackpool-based sustainable tourism mobile application built with 
    ```
 
 3. **Set up environment variables**:
-   Create a `.env` file in the root directory and add your OpenWeatherMap API key:
+   Set up API key: Update the app.json file with your OpenWeatherMap API key:
    ```
-   OPENWEATHERMAP_API_KEY=your_api_key_here
+   {
+  "expo": {
+    "name": "BP Tours",
+    "slug": "bp-tours",
+    // other expo configs...
+    "extra": {
+      "apiKey": "your_openweathermap_api_key_here"
+    }
+  }
+}
    ```
 
 4. **Start the development server**:
